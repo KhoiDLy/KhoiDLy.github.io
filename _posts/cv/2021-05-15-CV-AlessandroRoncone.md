@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae
 category: cv
-description: I am a robotics engineer, a computer scientist, and a team lead.
+description: I am an embedded and control system engineer with focus on robotics.
 permalink: cv.html
 type: cv
 tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
@@ -9,12 +9,9 @@ pubyears:
  - 2020
  - 2018
  - 2017
- - 2016
- - 2015
- - 2014
 ---
 
-{% include video.html url="//www.youtube.com/embed/yixb6WeZL-Q" margin-bottom="60px" padding-bottom="52%" max-width="100%" %}
+<!-- {% include video.html url="//www.youtube.com/embed/yixb6WeZL-Q" margin-bottom="60px" padding-bottom="52%" max-width="100%" %}
 
 # Who am I
 
@@ -38,4 +35,4 @@ To me, the engineering is as important as the science: **I make robots work**{:.
 Alessandro Roncone received his B.Sc. _summa cum laude_ in Biomedical Engineering in February 2008, and his M.Sc. _summa cum laude_ in NeuroEngineering in July 2011 from the [Università degli Studi di Genova](http://www.unige.it/), Italy.
 In April 2015 he completed his Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it), working in the _Robotics, Brain and Cognitive Sciences_ and the _iCub Facility_ departments under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from the neurosciences in order to improve the sensorimotor capabilities of the [iCub](http://www.icub.org) humanoid robot.
 From 2015 to 2018, he worked as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University under the supervision of prof. [Brian Scassellati (a.k.a. Scaz)](http://www.cs.yale.edu/homes/scaz/), where he focused on human robot collaboration and advanced manufacturing.
-In Fall 2018, he became faculty in the Computer Science Department of University of Colorado Boulder, where he directs the [Human Interaction and RObotics [HIRO] Group](https://hiro-group.ronc.one).
+In Fall 2018, he became faculty in the Computer Science Department of University of Colorado Boulder, where he directs the [Human Interaction and RObotics [HIRO] Group](https://hiro-group.ronc.one). -->
