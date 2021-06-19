@@ -1,27 +1,27 @@
 # Site settings
-title: alecive
-email: alessandro.roncone@colorado.edu
-url: https://alecive.github.io
-phone: +1 (203) 606-3896
-google-analytics-id: UA-80094809-1
-description: "Personal website of Alessandro Roncone, also known as alecive, Ph.D. in robotics engineering, computer scientist, interaction designer, father and runner."
-owner: Alessandro Roncone
-owner-title: Ph.D.
+title: KhoiDLy
+email: Khoi.Ly@colorado.edu
+url: https://github.com/KhoiDLy/KhoiDLy.github.io
+phone: +1 (214) 718-0612
+#google-analytics-id: UA-80094809-1
+description: "Personal website of Khoi Ly, Ph.D. Candidate in Mechanical Engineering with concentration in soft robotics, embedded system design, and control theory."
+owner: Khoi Dang Ly
+owner-title: Ph.D. Candidate
 owner-job: Robotics Engineer
 
 # These should be put at the root of your website
-resume-link: AlessandroRoncone_resume.pdf
-cv-link: AlessandroRoncone_cv.pdf
+resume-link: KhoiLy_resume.pdf
+cv-link: KhoiLy_cv.pdf
 cv-image: /img/cv.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github-alt
-    url: http://github.com/alecive
+    url: https://github.com/KhoiDLy/KhoiDLy.github.io
   - title: linkedin
-    url: https://www.linkedin.com/in/alessandroroncone
+    url: https://www.linkedin.com/in/khoidly
   - title: graduation-cap
-    url: https://scholar.google.com/citations?user=nV-XGVIAAAAJ&hl
+    url: https://scholar.google.com/citations?user=yZYX8EgAAAAJ&hl=en
   - title: robot
     url: https://hiro-group.ronc.one
   # - title: calendar-o
@@ -29,12 +29,12 @@ social:
 
 logo: /img/logo.svg
 
-banner: "I am looking for students!"
-banner-link: https://hiro-group.ronc.one/join_us.html
+banner: "I am looking for new, exiciting robotics research opportunities!"
+#banner-link: https://hiro-group.ronc.one/join_us.html
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 1111 Engineering Dr, ECES 124,
+  - line: 1111 Engineering Dr, ECES 111,
   - line: Computer Science Dept, University of Colorado,
   - line: Boulder, 80309, CO, U.S.A.
 
@@ -76,14 +76,14 @@ defaults:
       category: "research"
   -
     scope:
-      path: "_posts/research/humanoid_robotics"
+      path: "_posts/research/Integrated system and controller design"
     values:
-      subcategory: "Humanoid Robotics"
+      subcategory: "Integrated system and controller design"
   -
     scope:
-      path: "_posts/research/human_robot_collaboration"
+      path: "_posts/research/Embedded driver and sensor design"
     values:
-      subcategory: "Human-Robot Collaboration"
+      subcategory: "Embedded driver and sensor design"
   -
     scope:
       path: "_posts/design"
