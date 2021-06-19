@@ -1,0 +1,148 @@
+
+<section id="post-cv">
+    <div class="container">
+        <div class="row only-print">
+            <div class="col-lg-12 text-center">
+                <h2>{{ site.owner }}</h2>
+                <h3>{{ page.description }}</h3>
+            </div>
+        </div>
+        <div id="article">
+            <div class="row d-lg-none">
+                <div class="col-sm-6 text-center">
+                    <a class="btn btn-danger btn-lg" style="width: 60%;" href="/{{ site.cv-link }}" target="_blank">[CV]</a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <a class="btn btn-danger btn-lg" style="width: 60%;" href="/{{ site.resume-link }}" target="_blank">[Resumé]</a>
+                </div>
+            </div>
+
+            {{ content }}
+
+            <h1>Professional Experience</h1>
+            {% for item in site.data.cv-professional %}
+                <div class="row cv-item">
+                    <div class="col-md-3">
+                        <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                        {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                        {% endif %}
+                    </div>
+
+                    <div class="col-md-9">
+                        <h2>{{item.name}}</h2>
+                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h1>Education</h1>
+            {% for college in site.data.cv-education %}
+                <div class="row cv-item">
+                    <div class="col-md-3">
+                        <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
+                        {% if college.location-link %}<h4 class="inlineifprinted"><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{college.location}}</h4>
+                        {% endif %}
+                    </div>
+
+                    <div class="col-md-9">
+                        <h2>{{college.name}}</h2>
+                        <p>{% if college.title %}<i>{{college.title}}</i><br>{% endif %}
+                        {{college.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h1>Research, Teaching & Service</h1>
+            {% for item in site.data.cv-misc %}
+                <div class="row cv-item">
+                    {% if item.year or item.venue or item.where %}
+                    <div class="col-md-4">
+                        <h3 class="inlineifprinted">{{item.year}}</h3>
+                        <h4 class="inlineifprinted">{{item.venue}}</h4>
+                        <p  class="no-print d-none d-md-block">{{item.where}}</p>
+                    </div>
+
+                    <div class="col-md-8">
+                    {% else %}
+                    <div class="col-md-12">
+                    {% endif %}
+                        <h2 {% if item.inline %}style="display:inline-block;"{% endif %}>{{item.title}}</h2>
+                        {% if item.elems %}
+                            <ul>
+                            {% for elem in item.elems %}
+                                {% if elem.year %}
+                                <li><b>{{ elem.year }}</b> - {{ elem.where }} - {{ elem.description }}</li>
+                                {% else %}<li>{{ elem }}</li>{% endif %}
+                            {% endfor %}
+                            </ul>
+                        {% else %}
+                            <p {% if item.inline %}style="display:inline-block;"{% endif %}>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
+                            {{ item.description }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h1>Publications</h1>
+            {% for y in page.pubyears %}
+                <h2>{{ y }}</h2>
+                {% include pubs.html year=y %}
+            {% endfor %}
+
+            <h1>Graphic Design</h1>
+            {% for item in site.data.cv-graphics %}
+                <div class="row cv-item">
+                    {% if item.start or item.end or item.location or item.location-link %}
+                    <div class="col-md-3">
+                        <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                        {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                        {% endif %}
+                    </div>
+
+                    <div class="col-md-9">
+                    {% else %}
+                    <div class="col-md-12">
+                    {% endif %}
+                        <h2>{{item.name}}</h2>
+                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h1>Skills and Technical Expertise</h1>
+            <p class="no-print">The following is a list of my so-called <i>skills</i>, i.e. a set of progress bars that have little meaning and are totally subjective. They fall short in depicting who I really am, but they are a fair rundown of my practical talents nonetheless.</p>
+            {% for skill in site.data.cv-skills %}
+            <div class="row cv-item">
+                <div class="col-md-12">
+                    <p><b>{{ skill.name }}: </b></p>
+                    <div class="only-print">
+                    {% for item in skill.items %}
+                        <span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span>
+                    {% endfor %}
+                    </div>
+
+                    {% for item in skill.items %}
+                        <div class="progress no-print">
+                            <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
+                                <span class="sr-only">{{ item.knowledge }}% Complete</span>
+                            </div>
+                            <span class="progress-type">{{ item.name }}</span>
+                            <span class="progress-completed">{{ item.knowledge }}%</span>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <p class="cv-disclaimer only-print">This CV has been auto<i>-magically</i> generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ site.time | date: '%B %d, %Y' }}</i></p>
+        </div>
+    </div>
+</section>

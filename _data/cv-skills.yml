@@ -1,0 +1,104 @@
+ - name: Robots & Platforms
+   items:
+    - name: iCub
+      knowledge: 98
+    - name: YARP
+      knowledge: 94
+    - name: Baxter
+      knowledge: 90
+    - name: ROS
+      knowledge: 92
+ - name: Robotics & AI
+   items:
+    - name: Kinematics
+      knowledge: 90
+    - name: Non-Linear Optimization
+      knowledge: 85
+    - name: Decision Making
+      knowledge: 82
+    - name: Planning under uncertainty
+      knowledge: 78
+    - name: 2D/3D Computer Vision
+      knowledge: 80
+    - name: Calibration
+      knowledge: 75
+    - name: Control
+      knowledge: 65
+    - name: Machine Learning
+      knowledge: 66
+    - name: Tactile Sensing
+      knowledge: 85
+    - name: Sensor Fusion
+      knowledge: 55
+    - name: Filtering
+      knowledge: 60
+    - name: IMU Processing
+      knowledge: 85
+ - name: Programming
+   items:
+    - name: C++
+      knowledge: 95
+    - name: Matlab
+      knowledge: 85
+    - name: CMake
+      knowledge: 75
+    - name: Bash
+      knowledge: 65
+    - name: CSS3 & HTML5
+      knowledge: 90
+    - name: R
+      knowledge: 36
+    - name: Python
+      knowledge: 40
+    - name: Android/Java
+      knowledge: 45
+ - name: OS/Software
+   items:
+    - name: Linux
+      knowledge: 95
+    - name: Windows
+      knowledge: 56
+    - name: git
+      knowledge: 94
+    - name: svn
+      knowledge: 70
+    - name: cvs
+      knowledge: 40
+    - name: Continous Integration
+      knowledge: 88
+    - name: Unit Testing
+      knowledge: 84
+    - name: Debugging
+      knowledge: 82
+    - name: Docker
+      knowledge: 74
+    - name: UX/UI
+      knowledge: 88
+    - name: Gimp
+      knowledge: 82
+    - name: Inkscape
+      knowledge: 92
+ - name: Languages
+   items:
+    - name: Italian
+      knowledge: 99
+    - name: English
+      knowledge: 93
+    - name: Genovese
+      knowledge: 64
+ - name: Sports
+   items:
+    - name: Running
+      knowledge: 98
+    - name: Skiing
+      knowledge: 82
+    - name: Beach volley
+      knowledge: 86
+    - name: Waterpolo
+      knowledge: 78
+    - name: Tennis
+      knowledge: 70
+    - name: Soccer
+      knowledge: 60
+    - name: Frisbee
+      knowledge: 62
