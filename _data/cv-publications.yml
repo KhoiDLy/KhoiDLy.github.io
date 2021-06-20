@@ -1,24 +1,25 @@
- - title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
-   authors: Khoi Ly, Nicholas Kellaris, Dade McMorris, Brian K Johnson, Eric Acome, Vani Sundaram, Mantas Naris, J Sean Humbert, Mark E Rentschler, Christoph Keplinger, Nikolaus Correll
-   year: 2020
-   venue: Soft Robotics
-   where:
-   pdf: "2020_Koh_IROS_SLiCC"
- - title: "Identification and control of a nonlinear soft actuator and sensor system"
-   authors: Brian K Johnson, Vani Sundaram, Mantas Naris, Eric Acome, Khoi Ly, Nikolaus Correll, Christoph Keplinger, James Sean Humbert, Mark E Rentschler
-   year: 2020
-   venue: IEEE Robotics and Automation Letter (RA-L)
-   where: 
-   pdf: "2020_Ding_AAMAS_cooperative_object_manipulation"
- - title: "An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots"
-   authors: Shane K Mitchell, Xingrui Wang, Eric Acome, Trent Martin, Khoi Ly, Nicholas Kellaris, Vidyacharan Gopaluni Venkata, Christoph Keplinger
-   year: 2019
-   venue: Advanced Science
-   where: 
-   pdf: "2018_Brawer_IROS_situated_hrc"
  - title: "High-Bandwidth Nonlinear Control for Soft Actuators with Recursive Network Models"
    authors: Sarah A. Manzano, Patricia Xu, Khoi Ly, Robert Shepherd, Nikolaus Correll
    year: 2021
    venue: International Symbosium of Experimental Robotics (ISER)
    where: Malta, November 15
-   pdf: "2018_Grigore_IROS_assistance_prediction"
+   pdf: "2021_SarahManzano_NeuralMPCforSoftRoboticBlock"
+ - title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
+   authors: Khoi Ly, Nicholas Kellaris, Dade McMorris, Brian K Johnson, Eric Acome, Vani Sundaram, Mantas Naris, J Sean Humbert, Mark E Rentschler, Christoph Keplinger, Nikolaus Correll
+   year: 2020
+   venue: Soft Robotics
+   where:
+   pdf: "2020_KhoiLy_CapacitiveSelfSensing"
+ - title: "Identification and control of a nonlinear soft actuator and sensor system"
+   authors: Brian K Johnson, Vani Sundaram, Mantas Naris, Eric Acome, Khoi Ly, Nikolaus Correll, Christoph Keplinger, James Sean Humbert, Mark E Rentschler
+   year: 2020
+   venue: IEEE Robotics and Automation Letter (RA-L)
+   where: 
+   pdf: "2020_BrianJohnson_IndentificationandControlforFoldedHASEL"
+ - title: "An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots"
+   authors: Shane K Mitchell, Xingrui Wang, Eric Acome, Trent Martin, Khoi Ly, Nicholas Kellaris, Vidyacharan Gopaluni Venkata, Christoph Keplinger
+   year: 2019
+   venue: Advanced Science
+   where: 
+   pdf: "2019_ShaneMitchell_EasyToolkitforHASEL"
+
