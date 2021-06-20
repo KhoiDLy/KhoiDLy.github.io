@@ -83,7 +83,7 @@ defaults:
     scope:
       path: "_posts/research/Embedded Power and sensor design"
     values:
-      subcategory: "Embedded driver and sensor design"
+      subcategory: "Embedded power and sensor design"
   -
     scope:
       path: "_posts/design"
