@@ -29,7 +29,7 @@ social:
 
 logo: /img/logo.svg
 
-banner: "I am looking for new, exiciting robotics research opportunities!"
+banner: "I am looking for new, exiciting robotics research Positions!"
 #banner-link: http://correll.cs.colorado.edu/
 
 # Postal address (add as many lines as necessary)
@@ -81,7 +81,7 @@ defaults:
       subcategory: "Integrated system and controller design"
   -
     scope:
-      path: "_posts/research/Embedded driver and sensor design"
+      path: "_posts/research/Embedded Power and sensor design"
     values:
       subcategory: "Embedded driver and sensor design"
   -
