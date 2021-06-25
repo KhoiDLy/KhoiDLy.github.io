@@ -5,12 +5,12 @@ link-alt: GitHub repository
 img: BaxterRoleAssignment.jpg
 img-thumb: BaxterRoleAssignment_thumb.jpg
 alt: baxter-role-assignment
-description: transparent human-robot collaborative system to increase efficiency in small and medium manufacturing
+description: An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
-authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
-submission: IEEE International Conference on Robotics and Automation (ICRA2014), Singapore, May 29-June 3, 2017
-paper_pdf: "2017_Roncone_ICRA_role_assignment"
-paper_title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
+authors: Shane K Mitchell, Xingrui Wang, Eric Acome, Trent Martin, Khoi Ly, Nicholas Kellaris, Vidyacharan Gopaluni Venkata, Christoph Keplinger
+submission: Advanced Science, 2019
+paper_pdf: "2019_ShaneMitchell_EasyToolkitforHASEL"
+paper_title: "An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots"
 ---
 
 We believe the transition from robots as recipients of human instruction to robots as capable collaborators hinges around the implementation of **transparent systems**, where mental models about the task are shared between peers, and the human partner is freed from the responsibility of taking care of both actors.
