@@ -81,7 +81,7 @@ defaults:
       subcategory: "Integrated system and controller design"
   -
     scope:
-      path: "_posts/research/Embedded Power and sensor design"
+      path: "_posts/research/Embedded power and sensor design"
     values:
       subcategory: "Embedded power and sensor design"
   -
