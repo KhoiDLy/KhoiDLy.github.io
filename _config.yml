@@ -78,7 +78,7 @@ defaults:
     scope:
       path: "_posts/research/Integrated system and controller design"
     values:
-      subcategory: "Integrated system and controller design"
+      subcategory: "Integrated asdasd and controller design"
   -
     scope:
       path: "_posts/research/Embedded power and sensor design"
