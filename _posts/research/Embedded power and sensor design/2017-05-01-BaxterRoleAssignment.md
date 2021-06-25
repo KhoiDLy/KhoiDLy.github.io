@@ -2,8 +2,8 @@
 title: Embedded high voltage power and joystick control of a electro-hydraulic tentacle
 # link: https://github.com/scazlab/baxter_collaboration
 # link-alt: GitHub repository
-img: BaxterRoleAssignment.jpg
-img-thumb: BaxterRoleAssignment_thumb.jpg
+img: TerrytheTentacle.jpg
+img-thumb: TerrytheTentacle_thumb.jpg
 alt: baxter-role-assignment
 description: An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
