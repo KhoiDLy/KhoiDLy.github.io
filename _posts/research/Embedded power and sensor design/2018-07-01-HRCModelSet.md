@@ -2,8 +2,8 @@
 title: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
 # link: https://scazlab.github.io/HRC-model-set
 # link-alt: webpage
-img: HRCmodelset.jpg
-img-thumb: HRCmodelset_thumb.jpg
+img: CapacitiveSelfSensing.jpg
+img-thumb: CapacitiveSelfSensing_thumb.jpg
 alt: HRC-model-set
 description: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
