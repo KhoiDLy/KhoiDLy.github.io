@@ -18,7 +18,7 @@ In this work, we implement a transparent task planner able to be deployed in rea
 
 {% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" description="Video summary of the proposed work." %}
 
-## Method
+<!-- ## Method
 
 We target robotic systems that are readily available to non-expert users. In this respect, a **hierarchical task model (HTM)** serves as the entry point for such users: it models the task with the same level of abstraction that one would use to describe the task to another person, while hiding the details of the implementation (cf. Fig. 1).
 
@@ -45,4 +45,4 @@ Although the majority of the codebase is robot-independent, the control architec
 We test the proposed system in a proof-of-concept scenario in which the human and the robot are engaged in the joint construction of a stool. The system has been evaluated with 8 participants, in a within-subjects design.
 Overall, the results suggest evidence of an improvement in terms of task efficiency: two-samples t-test between conditions A and B shows statistically significant difference, with a p-value of `0.016`.
 
-Finally, we have registered a general user preference toward the proposed system. Multiple reasons were given that support the idea that a more transparent interaction favors the collaboration between peers. Most of the comments suggested a reduced cognitive load as the reason for such preference. Please refer to the paper for further information.
+Finally, we have registered a general user preference toward the proposed system. Multiple reasons were given that support the idea that a more transparent interaction favors the collaboration between peers. Most of the comments suggested a reduced cognitive load as the reason for such preference. Please refer to the paper for further information. -->
