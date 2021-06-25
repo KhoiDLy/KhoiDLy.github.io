@@ -1,5 +1,5 @@
 ---
-title: Miniaturized high voltage power and human-in-the-loop control of a electro-hydraulic tentacle
+title: Embedded high voltage power and joystick control of a electro-hydraulic tentacle
 link: https://github.com/scazlab/baxter_collaboration
 link-alt: GitHub repository
 img: BaxterRoleAssignment.jpg
