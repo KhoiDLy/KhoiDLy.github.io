@@ -1,20 +1,25 @@
 ---
-title: The HRC Model Set for Human-Robot Collaboration research
-link: https://scazlab.github.io/HRC-model-set
-link-alt: webpage
+title: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
+# link: https://scazlab.github.io/HRC-model-set
+# link-alt: webpage
 img: HRCmodelset.jpg
 img-thumb: HRCmodelset_thumb.jpg
 alt: HRC-model-set
-description: Model set for Human-Robot collaborative tasks
+description: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
-authors: Sofya Zeylikman, Sarah Widder, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
-submission: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), Madrid, Spain, October 1-5, 2018
-paper_pdf: "2018_Zeylikman_IROS_hrc_model_set"
-paper_title: "The HRC model set for human-robot collaboration research"
+authors: Khoi Ly, Nicholas Kellaris, Dade McMorris, Brian K Johnson, Eric Acome, Vani Sundaram, Mantas Naris, J Sean Humbert, Mark E Rentschler, Christoph Keplinger, Nikolaus Correll
+submission: Soft Robotics 2020
+paper_pdf: "2020_KhoiLy_CapacitiveSelfSensing"
+paper_title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
 ---
 
+We believe the transition from robots as recipients of human instruction to robots as capable collaborators hinges around the implementation of **transparent systems**, where mental models about the task are shared between peers, and the human partner is freed from the responsibility of taking care of both actors.
+In this work, we implement a transparent task planner able to be deployed in realistic, near-future applications. The proposed framework is capable of basic reasoning capabilities for what concerns role assignment and task allocation, and it interfaces with the human partner at the level of abstraction he is most comfortable with. The system is readily available to non-expert users, and programmable with high-level commands in an intuitive interface. Our results demonstrate an overall improvement in terms of completion time, as well as a reduced cognitive load for the human partner.
 
-{% include video.html url="//www.youtube.com/embed/09Zflg7ZzKU" %}
+{% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" description="Video summary of the proposed work." %}
+
+
+<!-- {% include video.html url="//www.youtube.com/embed/09Zflg7ZzKU" %}
 
 
 The **Human-Robot Collaboration (HRC) model set** is intended to ease the design of human-robot collaboration experiments.
@@ -47,4 +52,4 @@ Our designs range from the most simple, the Table configuration, to quite comple
 
 Each bracket is modeled in SolidWorks and then printed on a Dimension Elite FDM printer using ABS+ plastic.
 
-[Here](https://scazlab.github.io/HRC-model-set/info/3D-printing-recommendations/) are some guidelines to use when printing out a file using some common 3D printers.
+[Here](https://scazlab.github.io/HRC-model-set/info/3D-printing-recommendations/) are some guidelines to use when printing out a file using some common 3D printers. -->
