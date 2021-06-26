@@ -1,7 +1,7 @@
 ---
 title: Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators  
-link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
-link-alt: website
+# link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
+# link-alt: website
 img: developmentofbodyrepresentations.jpg
 img-thumb: developmentofbodyrepresentations_thumb.jpg
 alt: Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators 

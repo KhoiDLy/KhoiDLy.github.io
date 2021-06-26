@@ -1,7 +1,7 @@
 ---
 title: Electro-hydraulic rolling soft robot
-link: https://github.com/alecive/periPersonalSpace
-link-alt: GitHub repository
+# link: https://github.com/alecive/periPersonalSpace
+# link-alt: GitHub repository
 img: doubleTouch.jpg
 img-thumb: doubleTouch_thumb.jpg
 alt: Electro-hydraulic rolling soft robot
