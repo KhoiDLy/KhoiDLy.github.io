@@ -1,12 +1,12 @@
  - name: Ph.D. in Mechanical Engineering (GPA 3.9)
-   title: <b>Embedded Sensing and Control for High Speed Electro-hydraulic Soft Robots.</b>
+   title: <b>"Thesis title:" Embedded Sensing and Control for High Speed Electro-hydraulic Soft Robots.</b>
    start: 2017
    end: 2021
    location: University of Colorado Boulder, Boulder, USA
    location-link: https://www.colorado.edu/
    description: "Soft robotics is a field of robotic system design characterized by materials and structures that exhibit large-scale deformation, high compliance, and rich multifunctionality. The incorporation of soft and deformable structures endows soft robotic systems with the compliance and resiliency that makes them well-adapted for unstructured and dynamic environments. While actuation mechanisms for soft robots vary widely, soft electrostatic transducers such as dielectric elastomer actuators and electro-hydraulic actuators have demonstrated promise due to their muscle-like performance. Despite significant leaps in design and modeling of electro-hydraulic actuators thus far, the applications based on these novel actuators are often limited to tethered systems that require bulky and high-cost external sensors and controllers. To address the mentioned shortcomings, this body of research has enabled embedded perception and intelligence to electromechanical systems driven by electro-hydraulic actuators, by (i) developing capacitive self-sensing and magnetic sensing techniques to estimate shape changes of electro-hydraulic actuators in real-time; (ii) designing, modeling, and implementing a controller for a mobile soft robot driven by electro-hydraulic actuators; and (iii) proposing a contact force estimator for the robot using an onboard inertial measurement unit and magnetic displacement sensors. This work represents a substantial step to bring soft robotics closer to practical, real-world applications."
  - name: B.Sc. with highest honors in Mechanical Engineering (GPA 3.89)
-   title: <b>Evaluation of 3D-printed soft fingertip grasping ability for variable fingertips' design parameters</b>
+   title: <b>"Thesis title:" Evaluation of 3D-printed soft fingertip grasping ability for variable fingertips' design parameters</b>
    start: 2015
    end: 2017
    location: Texas Tech University, Lubbock, USA
