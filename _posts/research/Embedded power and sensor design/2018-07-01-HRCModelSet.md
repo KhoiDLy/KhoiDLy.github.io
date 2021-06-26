@@ -8,7 +8,7 @@ alt: HRC-model-set
 description: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
 authors: Khoi Ly, Nicholas Kellaris, Dade McMorris, Brian K Johnson, Eric Acome, Vani Sundaram, Mantas Naris, J Sean Humbert, Mark E Rentschler, Christoph Keplinger, Nikolaus Correll
-submission: Soft Robotics 2020
+submission: Soft Robotics, 2020
 paper_pdf: "2020_KhoiLy_CapacitiveSelfSensing"
 paper_title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
 ---
