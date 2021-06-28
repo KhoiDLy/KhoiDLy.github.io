@@ -1,6 +1,5 @@
-
-     <!-- About Section -->
-     <section class="success no-print" id="about">
+<!-- About Section -->
+    <!-- <section class="success no-print" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -15,7 +14,36 @@
                 </div>
                 <div class="col-lg-6">
                     {% include years_elap.html from="2008" %}
-                    <!-- <p>Outside of research, I probably spend the most amount of time on book reading. Where else can you find true stories about corporate politics and drammas, fictional appocalytic worlds or time and interstella travels better than well-written, fascinatting books about those subjects? Maybe I am mixing up my work-life, but I always curious about how I can implement some of the concepts in those stories to my daily life. "Find a job you enjoy doing, and you will never have to work a day in your life." -- Mark Twain</p> -->
+                    <p>Outside of research, I probably spend the most amount of time on book reading. Where else can you find true stories about corporate politics and drammas, fictional appocalytic worlds or time and interstella travels better than well-written, fascinatting books about those subjects? Maybe I am mixing up my work-life, but I always curious about how I can implement some of the concepts in those stories to my daily life. "Find a job you enjoy doing, and you will never have to work a day in your life." -- Mark Twain</p>
+                    <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked full time with the iCub, one of the most advanced humanoid robots, on machine perception and artificial intelligence. His mastery of C++ and the YARP/ROS software architectures has been employed for research in human-robot interaction, kinematics, tactile perception and robot control.</p>
+                    <p>{% if site.banner %}
+                        {% if site.banner-link %}<a href="{{ site.banner-link }}" target="_blank">{% endif %}
+                        <span class="about-banner">{{ site.banner }}{% if site.banner-link %} [LINK]{% endif %}</span>
+                        {% if site.banner-link %}</a>{% endif %}
+                    {% endif %}</p>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </section> -->
+
+
+     <!-- About Section -->
+     <section class="success no-print" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="separating-line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <p>{{ site.description }} From Fall 2018, he became Assistant Professor of Robotics in the CS Department at University of Colorado Boulder, where he directs the Human Interaction and RObotics [HIRO] Group.</p>
+                </div>
+                <div class="col-lg-6">
+                    {% include years_elap.html from="2008" %}
                     <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked full time with the iCub, one of the most advanced humanoid robots, on machine perception and artificial intelligence. His mastery of C++ and the YARP/ROS software architectures has been employed for research in human-robot interaction, kinematics, tactile perception and robot control.</p>
                     <p>{% if site.banner %}
                         {% if site.banner-link %}<a href="{{ site.banner-link }}" target="_blank">{% endif %}
