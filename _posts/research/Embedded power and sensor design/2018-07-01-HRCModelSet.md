@@ -17,7 +17,9 @@ and resiliency that makes them well-adapted for unstructured and dynamic environ
 by overlaying sinusoidal low-voltage signals, these designs still require sensing high-voltage signals, requiring bulky components that prevent integration with miniature, untethered soft robots. We present a circuit design that **eliminates the need for any high-voltage sensing components**, thereby facilitating the design of **simple, low cost circuits using off-the-shelf components**. Using this circuit, we perform simultaneous sensing and actuation for a range of
 electrostatic transducers including circular DEAs and HASEL actuators and demonstrate accurate estimated displacements with errors under 4%. We further develop this circuit into a compact and portable system that couples HV actuation, sensing, and computation as a prototype towards untethered, multifunctional soft robotic systems. Finally, we demonstrate the capabilities of our self-sensing design through feedback-control of a robotic arm powered by Peano-HASEL actuators.
 
-{% include video.html url="https://www.youtube.com/watch?v=zd22aOEUt8A&t=1s" description="Video summary of the proposed work." %}
+{% include video.html url="//www.youtube.com/watch?v=fw3BwmrpdmU" %}
+
+<!-- {% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" description="Video summary of the proposed work." %} -->
 
 
 <!-- {% include video.html url="//www.youtube.com/embed/09Zflg7ZzKU" %}
