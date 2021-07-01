@@ -1,10 +1,10 @@
 ---
-title: Electro-hydraulic rolling soft robot
+title: Electro-hydraulic rolling soft robot --- Design, modeling, and control
 # link: https://github.com/alecive/periPersonalSpace
 # link-alt: GitHub repository
 img: RollingRobot_Sequence.jpg
 img-thumb: RollingRobot_Sequence_thumb.jpg
-alt: Electro-hydraulic rolling soft robot
+alt: Electro-hydraulic rolling soft robot --- Design, modeling, and control
 description: Electro-hydraulic rolling soft robot
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Rentschler, Nikolaus Correll
