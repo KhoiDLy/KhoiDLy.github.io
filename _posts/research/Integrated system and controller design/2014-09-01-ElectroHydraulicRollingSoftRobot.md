@@ -14,4 +14,4 @@ authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Ren
 ---
 A very cool description of the electro-hydraulic rolling soft robot will come soon!
 
-{% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" %}
+{% include video.html url="//www.youtube.com/embed/o7yJx3-GLs0" %}
