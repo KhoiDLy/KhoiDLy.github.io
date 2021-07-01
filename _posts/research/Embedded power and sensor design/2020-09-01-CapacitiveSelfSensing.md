@@ -4,7 +4,7 @@ title: Miniaturized capacitive self-sensing for high voltage electrostatic trans
 # link-alt: webpage
 img: CapacitiveSelfSensing.jpg
 img-thumb: CapacitiveSelfSensing_thumb.jpg
-alt: HRC-model-set
+alt: CapacitiveSelfSensing
 description: Miniaturized capacitive self-sensing for high voltage electrostatic transducers
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
 authors: Khoi Ly, Nicholas Kellaris, Dade McMorris, Brian K Johnson, Eric Acome, Vani Sundaram, Mantas Naris, J Sean Humbert, Mark E Rentschler, Christoph Keplinger, Nikolaus Correll
