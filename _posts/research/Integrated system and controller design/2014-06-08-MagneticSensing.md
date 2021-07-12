@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators  
 # link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
 # link-alt: website
@@ -17,7 +17,7 @@ authors: Vani Sundaram, Khoi Ly, Brian K. Johnson, Mantas Naris, Max Anderson, J
 We believe the transition from robots as recipients of human instruction to robots as capable collaborators hinges around the implementation of **transparent systems**, where mental models about the task are shared between peers, and the human partner is freed from the responsibility of taking care of both actors.
 In this work, we implement a transparent task planner able to be deployed in realistic, near-future applications. The proposed framework is capable of basic reasoning capabilities for what concerns role assignment and task allocation, and it interfaces with the human partner at the level of abstraction he is most comfortable with. The system is readily available to non-expert users, and programmable with high-level commands in an intuitive interface. Our results demonstrate an overall improvement in terms of completion time, as well as a reduced cognitive load for the human partner.
 
-{% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" %}
+{% include video.html url="//www.youtube.com/embed/l6alHuMqx6Y" %} -->
 
 <!-- 
 ## Video
