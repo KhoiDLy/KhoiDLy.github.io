@@ -2,8 +2,8 @@
 title: Please contact Khoi for more teasers of on-going projects  
 # link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
 # link-alt: website
-# img: developmentofbodyrepresentations.jpg
-# img-thumb: developmentofbodyrepresentations_thumb.jpg
+img: dont_panic.jpg
+img-thumb: dont_panic_thumb.jpg
 # alt: Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators 
 # description: Half-day workshop at ICDL-EPIROB 2014 Conference
 # tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
