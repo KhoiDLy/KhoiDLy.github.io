@@ -237,7 +237,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    border-radius: 0%;
+    border-radius: 10%;
     background-color: #{{ site.color.secondary }};
 }
 
@@ -250,7 +250,7 @@ header img {
 .cv-img {
     max-width: 196px;
     box-sizing: border-box;
-    border: 8px solid #{{ site.color.secondary }};
+    border: 2px solid #{{ site.color.secondary }};
 }
 
 header .intro-text {
