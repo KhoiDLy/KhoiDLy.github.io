@@ -194,7 +194,7 @@ hr.separating-line {
 }
 
 header hr.separating-line {
-    margin: 15px auto 30px;
+    margin: 10px auto 30px;
 }
 
 @media(min-width:768px) {
