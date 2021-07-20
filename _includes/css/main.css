@@ -190,7 +190,7 @@ hr.separating-line {
     border: 0;
     /*border-top: solid 5px;*/
     text-align: center;
-    border-top: 100px solid #{{ site.color.articletext }};
+    border-top: 3px solid #{{ site.color.articletext }};
 }
 
 header hr.separating-line {
