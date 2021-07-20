@@ -104,7 +104,7 @@ defaults:
 # with a number of combinations to play with
 color:
 # ORIGINAL - B&W
-  banner: 66a329                            # This is a green banner color (for red, use bf4040)
+  banner: 6BBBE1                            # This is a green banner color (for red, use bf4040)
   articletext: 292929                       # This is the text color
   primary:  f9fafb                          # This is the background of the logo, light gray
   secondary: 3c3c3c                         # This is dark gray
