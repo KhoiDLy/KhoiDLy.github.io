@@ -501,6 +501,7 @@ header .intro-text .owner {
     text-align: center;
     font-size: 1.4em;
     font-weight: bold;
+    background-size: 100%;
     margin-bottom: 0px;
     background-color: #{{ site.color.banner }};
     color: #fff;
