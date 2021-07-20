@@ -500,8 +500,7 @@ header .intro-text .owner {
     border-radius: 0px;
     text-align: center;
     font-size: 1.4em;
-    font-weight: bold;
-    background-size: 200%;
+    font-weight: bold;  
     margin-bottom: 0px;
     background-color: #{{ site.color.banner }};
     color: #fff;
@@ -511,6 +510,7 @@ header .intro-text .owner {
 .about-banner:hover {
     font: inherit;
     font-weight: bold;
+    background-size: 200%;
     background-color: inherit;
     text-transform: inherit;
     color: #{{ site.color.banner }};
