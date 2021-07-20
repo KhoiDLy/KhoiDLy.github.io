@@ -665,7 +665,7 @@ section.success p {
 #article .cv-disclaimer {
     text-align: left;
     border-left: 10px solid #{{ site.color.secondary }};
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 #article h1:first-child,
