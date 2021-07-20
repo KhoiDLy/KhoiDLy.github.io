@@ -44,7 +44,7 @@ body {
     overflow-x: hidden;
     font-size: 19px;
     font-family: 'Helvetica', sans-serif;
-    line-height: 1.429;
+    line-height: 1.529;
     color: #{{ site.color.articletext }};
 }
 
