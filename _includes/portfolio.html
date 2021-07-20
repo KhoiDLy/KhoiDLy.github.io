@@ -3,7 +3,7 @@
         <div class="container" id="portfolio">
             <div class="row">
                 {% if page.type == "research" or  page.type == "design" %}
-                <div class="col-lg-12" id="article" style="margin-top: 0px; {% if page.subtypes %}{% else %}margin-bottom: 40px;{% endif %}">
+                <div class="col-lg-12" id="article" style="margin-top: 100px; {% if page.subtypes %}{% else %}margin-bottom: 40px;{% endif %}">
                     {{ content | markdownify }}
                 </div>
                 {% endif %}
