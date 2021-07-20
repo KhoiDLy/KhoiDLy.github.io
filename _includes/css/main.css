@@ -43,7 +43,7 @@ body {
     position: relative;
     overflow-x: hidden;
     font-size: 19px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 1.429;
     color: #{{ site.color.articletext }};
 }
