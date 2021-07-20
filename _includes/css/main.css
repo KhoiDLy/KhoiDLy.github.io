@@ -188,10 +188,10 @@ hr.separating-line {
     padding: 0;
     /*max-width: 250px;*/
     border: 0;
-    opacity: 0.5;
+    opacity: 0.4;
     /*border-top: solid 5px;*/
     text-align: center;
-    border-top: 3px solid #{{ site.color.articletext }};
+    border-top: 6px solid #{{ site.color.articletext }};
 }
 
 header hr.separating-line {
