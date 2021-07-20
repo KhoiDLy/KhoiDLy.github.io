@@ -24,7 +24,7 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 @font-face {
     font-family: 'Montserrat';
     src: url("{{ site.baseurl }}/fonts/Montserrat-Regular.otf") format("opentype");
-    font-weight: 700;
+    font-weight: 100;
 }
 
 @font-face {
