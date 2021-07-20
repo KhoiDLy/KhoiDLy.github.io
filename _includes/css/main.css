@@ -42,7 +42,7 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 body {
     position: relative;
     overflow-x: hidden;
-    font-size: 20px;
+    font-size: 2px;
     font-family: 'Assistant', sans-serif;
     line-height: 1.429;
     color: #{{ site.color.articletext }};
