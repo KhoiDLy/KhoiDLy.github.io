@@ -248,7 +248,7 @@ header img {
 }
 
 .cv-img {
-    max-width: 1000px;
+    max-width: 196px;
     box-sizing: border-box;
     border: 2px solid #{{ site.color.secondary }};
 }
