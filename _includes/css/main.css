@@ -749,7 +749,7 @@ section.success p {
 }
 
 #article-img {
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -803,7 +803,7 @@ section.success p {
 
 @media(max-width: 767px) {
     #article-img {
-        max-width: 100% !important;
+        max-width: 70% !important;
     }
 }
 
