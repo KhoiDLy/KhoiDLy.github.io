@@ -237,7 +237,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    border-radius: 20%;
+    border-radius: 0%;
     background-color: #{{ site.color.secondary }};
 }
 
@@ -665,7 +665,7 @@ section.success p {
 #article .cv-disclaimer {
     text-align: left;
     border-left: 10px solid #{{ site.color.secondary }};
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 #article h1:first-child,
