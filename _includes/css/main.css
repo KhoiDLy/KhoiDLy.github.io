@@ -243,7 +243,7 @@ header img {
 
 .logo-img {
     padding: 25px;
-    max-width: 196px;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
