@@ -243,13 +243,13 @@ header img {
 
 .logo-img {
     padding: 25px;
-    max-width: 100%;
+    max-width: 196px;
     box-sizing: border-box;
 }
 
 .cv-img {
-    max-width: 100%;
-    box-sizing: border-box;
+    width: 100%;
+    /* box-sizing: border-box; */
     border: 2px solid #{{ site.color.secondary }};
 }
 
