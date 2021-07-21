@@ -249,6 +249,7 @@ header img {
 
 .cv-img {
     width: 100%;
+    height: auto;
     /* box-sizing: border-box; */
     border: 2px solid #{{ site.color.secondary }};
 }
