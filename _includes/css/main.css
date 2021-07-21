@@ -235,6 +235,10 @@ header .container {
 }
 
 header img {
+
+    max-width: 100%;
+    height: auto;
+    
     display: block;
     margin: 0 auto 20px;
     border-radius: 10%;
@@ -248,8 +252,6 @@ header img {
 }
 
 .cv-img {
-    max-width: 100%;
-    height: auto;
 
     box-sizing: border-box;
     border: 2px solid #{{ site.color.secondary }};
