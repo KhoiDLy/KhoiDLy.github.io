@@ -248,6 +248,10 @@ header img {
 }
 
 .cv-img {
+    width: 1000px;
+    height: 300px;
+    padding: 50px;
+
     max-width: 1000px;
     box-sizing: border-box;
     border: 2px solid #{{ site.color.secondary }};
