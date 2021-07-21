@@ -247,11 +247,8 @@ header img {
     box-sizing: border-box;
 }
 
-.cv-img.resize {
-
-    width:540px; /* you can use % */
-    height: auto;
-    /* max-width: 196px; */
+.cv-img {
+    max-width: 196px;
     box-sizing: border-box;
     border: 2px solid #{{ site.color.secondary }};
 }
