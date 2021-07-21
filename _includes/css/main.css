@@ -236,7 +236,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: auto auto auto;
     border-radius: 10%;
     background-color: #{{ site.color.secondary }};
 }
