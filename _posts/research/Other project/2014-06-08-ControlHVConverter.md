@@ -2,7 +2,7 @@
 title: PID Control of HV DC-DC Converter
 # link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
 # link-alt: website
-img: HV_DCDC_Converter.jpg
+img: HV_DCDC_Converter.jpg 
 img-thumb: HV_DCDC_Converter_thumb.jpg
 # alt: Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators 
 # description: Half-day workshop at ICDL-EPIROB 2014 Conference
