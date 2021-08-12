@@ -26,7 +26,7 @@ The results of the HV outputs, measured by a high voltage probe, are presented i
 ## Slides
 {: class="no-print"}
 
-The below slides are from the digital Control Final Project 2018:
+The below slides are from the unpublished research on using portal HV circuit for HASEL actuators:
 {: class="no-print"}
 
-{% include pdf.html url="portfolio/Control_HV_DCDC_Converter.pdf" description="Course Project in Digital Control 2018" %}
+{% include pdf.html url="portfolio/Control_HV_DCDC_Converter.pdf" description="" %}
