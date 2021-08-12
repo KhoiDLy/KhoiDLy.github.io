@@ -13,7 +13,7 @@ img-thumb: HV_DCDC_Converter_thumb.jpg
 # paper_title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
 ---
 
-## Description
+## Abstract
 
 The presented HV DC-DC converter (EMCO Q101) is a proportional, unregulated converter that can amplify an input voltage between 0 - 5 V to 0 - 10 kV. However, the device's output voltage is load dependent. The goal of this project is to design a step-up DC-DC converter, implement a lead-lag compensator to control the voltage output of the converter irrespective of the load.
 

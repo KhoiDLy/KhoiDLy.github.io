@@ -12,6 +12,7 @@ submission: Advanced Science, 2019
 paper_pdf: "2019_ShaneMitchell_EasyToolkitforHASEL"
 paper_title: "An Easy‐to‐Implement Toolkit to Create Versatile and High‐Performance HASEL Actuators for Untethered Soft Robots"
 ---
+## Abstract
 
 With the invention of electro-hydraulic (HASEL) actuators that operate under high voltage, there is an increasing need of miniaturizing embedded high voltage circuit to drive the actuators for robotics applications. Here, I combined a commercial high voltage DC-DC converter (PICO 5VV10P, Pico electronics) and the optocoupler switching circuit from Peta Pico Voltron (https://petapicovoltron.com/) into an H-bridge driver configuration that has been predominantly used to control DC motor. **Not only can this circuit adjust the high voltage value but it also can reverse the high voltage polarity applied to the actuators**, thus allowing for improved and robust actuators' performances. The following video provides a more detailed description of the circuit, why high voltage polarity reversal is needed, and how the circuit can be used to drive a soft robotic tentacle.
 
