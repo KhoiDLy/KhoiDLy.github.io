@@ -15,13 +15,13 @@ img-thumb: HV_DCDC_Converter_thumb.jpg
 
 ## Abstract
 
-The presented HV DC-DC converter (EMCO Q101) is a proportional, unregulated converter that can amplify an input voltage between 0 - 5 V to 0 - 10 kV. However, the device's output voltage is load dependent. The goal of this project is to design a step-up DC-DC converter, implement a lead-lag compensator to control the voltage output of the converter irrespective of the load.
+The presented HV DC-DC converter (EMCO Q101) is a proportional, unregulated converter that can amplify an input voltage between 0 - 5 V to 0 - 10 kV. However, the device's output voltage is load dependent. The goal of this project is to design a step-up DC-DC (buck) converter and implement a lead-lag compensator to control the voltage output of the HV DC-DC converter irrespective of the output load.
 
-To obtain the dynamic model of a commercial device, we employed a system identification technique called chirp response. Based on the frequency response of the converter, a single input - single output (SISO) transfer function of the device can be obtained. The model of the step-up DC-DC (buck) converter that drives the HV DC-DC conveter is well-known and can be obtained from any power-electronic textbook.
+To obtain the dynamic model of a commercial device, we employed a system identification technique called frequency response. Based on the frequency response of the converter, a single input - single output (SISO) transfer function of the device can be obtained. Separately, the model of the step-up DC-DC (buck) converter that drives the HV DC-DC conveter is well-known and can be obtained from any power-electronic textbook.
 
 Based on the combined model of the two converters, the Nyquist and Root Locus techniques can be used to determine the poles and zeros location of the closed loop system. This analysis allows for the stability of the controller and improved response time of the converters.
 
-The results, measured by a high voltage probe, are presented in slide 12. The ripple noise of the HV converter is intrinsic to the HV converter and is independent from the controller; the steady-state HV outputs are satisfactory with different loads.
+The results of the HV outputs, measured by a high voltage probe, are presented in slide 12. The ripple noisse of the HV converter are intrinsic to the HV converter and are independent from the controller; overall, the steady-state HV outputs are satisfactory with different loads.
 
 ## Slides
 {: class="no-print"}
