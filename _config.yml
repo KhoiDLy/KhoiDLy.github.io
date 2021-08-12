@@ -86,6 +86,11 @@ defaults:
       subcategory: "Embedded power and sensor design"
   -
     scope:
+      path: "_posts/research/Other project"
+    values:
+      subcategory: "Other project"
+  -
+    scope:
       path: "_posts/design"
     values:
       category: "design"
