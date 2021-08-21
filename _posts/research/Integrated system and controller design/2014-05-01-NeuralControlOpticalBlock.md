@@ -32,4 +32,4 @@ over three tasks. Among these models, the highest flash memory requirement is
 The below paper is for the detailed description of the neural network architecture for both sensor modeling and controller implementation:
 {: class="no-print"}
 
-{% include pdf.html url="portfolio/NeuralControllerforOpticalBlock.pdf" description="This Project describes the Neural controller design for an optical-laced soft robotic block" %}
+{% include pdf.html url="portfolio/NeuralControllerforOpticalBlock.pdf" description="" %}

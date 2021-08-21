@@ -24,4 +24,4 @@ Rolling robots are attractive due to their simple uniform designs, high degree o
 The below slides are for the detailed design, modeling, and control of Electrohydraulic Rolling Soft Robot:
 {: class="no-print"}
 
-{% include pdf.html url="portfolio/ElectrohydraulicRollingSoftRobot.pdf" description="This Project describes the Electrohydraulic Rolling Soft Robot" %}
+{% include pdf.html url="portfolio/ElectrohydraulicRollingSoftRobot.pdf" description="" %}

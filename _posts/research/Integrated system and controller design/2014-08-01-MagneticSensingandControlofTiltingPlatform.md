@@ -22,4 +22,4 @@ The need to create more viable soft sensors is increasing in tandem with the gro
 The below slides are for the detailed design, characterization and demonstration for control of embedded magnetic sensing:
 {: class="no-print"}
 
-{% include pdf.html url="portfolio/MagneticSensingandControlTiltingPlatform.pdf" description="This Project describes the Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators" %}
+{% include pdf.html url="portfolio/MagneticSensingandControlTiltingPlatform.pdf" description="" %}
