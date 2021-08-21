@@ -86,6 +86,11 @@ defaults:
       subcategory: "Embedded power and sensor design"
   -
     scope:
+      path: "_posts/research/Other projects"
+    values:
+      subcategory: "Other projects"
+  -
+    scope:
       path: "_posts/design"
     values:
       category: "design"
@@ -107,7 +112,7 @@ color:
   banner: 1A5683                            # This is a green banner color (for red, use bf4040)
   articletext: 292929                       # This is the text color
   primary:  f9fafb                          # This is the background of the logo, light gray
-  secondary: 3c3c3c                         # This is dark gray
+  secondary: 1F3663                        # This is dark gray
   secondary-dark: 323232                    # This is darker gray
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7

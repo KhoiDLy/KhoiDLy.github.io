@@ -42,7 +42,7 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 body {
     position: relative;
     overflow-x: hidden;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Helvetica', sans-serif;
     line-height: 1.529;
     color: #{{ site.color.articletext }};
@@ -188,10 +188,10 @@ hr.separating-line {
     padding: 0;
     /*max-width: 250px;*/
     border: 0;
-    opacity: 0.5;
+    opacity: 0.4;
     /*border-top: solid 5px;*/
     text-align: center;
-    border-top: 3px solid #{{ site.color.articletext }};
+    border-top: 6px solid #{{ site.color.articletext }};
 }
 
 header hr.separating-line {
@@ -237,7 +237,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    border-radius: 100%;
+    border-radius: 10%;
     background-color: #{{ site.color.secondary }};
 }
 
@@ -250,7 +250,7 @@ header img {
 .cv-img {
     max-width: 196px;
     box-sizing: border-box;
-    border: 8px solid #{{ site.color.secondary }};
+    border: 2px solid #{{ site.color.secondary }};
 }
 
 header .intro-text {
@@ -665,7 +665,7 @@ section.success p {
 #article .cv-disclaimer {
     text-align: left;
     border-left: 10px solid #{{ site.color.secondary }};
-    border-radius: 0;
+    border-radius: 0px;
 }
 
 #article h1:first-child,
@@ -1138,7 +1138,7 @@ span.label:hover e.ok {
 .btn-outline {
     margin-top: 4px;
     border: solid 2px #fff;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 0%;
     font-size: 20px;
     color: #fff;
     background: 0 0;
