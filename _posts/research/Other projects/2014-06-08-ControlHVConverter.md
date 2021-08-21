@@ -15,9 +15,9 @@ img-thumb: HV_DCDC_Converter_thumb.jpg
 
 ## Abstract
 
-The presented HV DC-DC converter (EMCO Q101) is a proportional, unregulated converter that can amplify an input voltage between 0 - 5 V to 0 - 10 kV. However, the device's output voltage is load dependent. The goal of this project is to design a step-up DC-DC (buck) converter and implement a lead-lag compensator to control the voltage output of the HV DC-DC converter irrespective of the output load.
+The presented HV DC-DC converter (EMCO Q101) is a proportional, unregulated converter that can amplify an input voltage between 0 - 5 V to 0 - 10 kV. However, the device's output voltage is load-dependent. The goal of this project is to design a step-up DC-DC (buck) converter and implement a PID controller to control the voltage output of the HV DC-DC converter irrespective of the output load.
 
-To obtain the dynamic model of a commercial device, we employed a system identification technique called frequency response. Based on the frequency response of the converter, a single input - single output (SISO) transfer function of the device can be obtained. Separately, the model of the step-up DC-DC (buck) converter that drives the HV DC-DC conveter is well-known and can be obtained from any power-electronic textbook.
+To obtain the dynamic model of a commercial device, we employed a system identification technique called chirp frequency tests. Based on the frequency response of the converter, a single input - single output (SISO) transfer function of the device can be obtained. Separately, the model of the step-up DC-DC (buck) converter that drives the HV DC-DC conveter is well-known and can be obtained from any power-electronic textbook.
 
 Based on the combined model of the two converters, the Nyquist and Root Locus techniques can be used to determine the poles and zeros location of the closed loop system. This analysis allows for the stability of the controller and improved response time of the converters.
 
