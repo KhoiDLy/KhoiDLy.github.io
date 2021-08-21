@@ -11,7 +11,7 @@ owner-job: Robotics Engineer
 
 # These should be put at the root of your website
 #resume-link: KhoiLy_resume.pdf
-cv-link: KhoiLy_cv.pdf
+# cv-link: KhoiLy_cv.pdf
 cv-image: /img/cv.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -29,7 +29,7 @@ social:
 
 logo: /img/logo.svg
 
-banner: "I am looking for a new, exciting robotics post-doctoral research position!"
+banner: "Mechatronics, System Engineering, Dynamic Modeling & Control Theory"
 #banner-link: http://correll.cs.colorado.edu/
 
 # Postal address (add as many lines as necessary)
