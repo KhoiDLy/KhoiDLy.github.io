@@ -1,16 +1,16 @@
 ---
-title: Electro-Hydraulic Rolling Soft Wheel:  Design, Hybrid Dynamic Modeling, and Model Predictive Control
+title: Electro-Hydraulic Rolling Soft Wheel - Design, Hybrid Dynamic Modeling, and Model Predictive Control
 # link: https://github.com/alecive/periPersonalSpace
 # link-alt: GitHub repository
 img: RollingRobot_Sequence.jpg
 img-thumb: RollingRobot_Sequence_thumb.jpg
-alt: Electro-Hydraulic Rolling Soft Wheel:  Design, Hybrid Dynamic Modeling, and Model Predictive Control
+alt: Electro-Hydraulic Rolling Soft Wheel - Design, Hybrid Dynamic Modeling, and Model Predictive Control
 description: Electro-hydraulic rolling soft robot
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Rentschler, Nikolaus Correll
 submission: IEEE Transactions on Robotics, 2022
 paper_pdf: "2022_KhoiLy_Electro-Hydraulic_Rolling_Soft_Wheel"
-paper_title: "Electro-Hydraulic Rolling Soft Wheel: Design, Hybrid Dynamic Modeling, and Model Predictive Control"
+paper_title: "Electro-Hydraulic Rolling Soft Wheel - Design, Hybrid Dynamic Modeling, and Model Predictive Control"
 ---
 ## Abstract
 
