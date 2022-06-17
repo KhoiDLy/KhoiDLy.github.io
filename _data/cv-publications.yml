@@ -1,9 +1,3 @@
- - title: "Electro-Hydraulic Rolling Soft Wheel: Design, Hybrid Dynamic Modeling, and Model Predictive Control"
-   authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Rentschler, Nikolaus Correll
-   year: 2022
-   venue: IEEE Transaction on Robotics (IEEE TR-O)
-   where:
-   pdf: "2022_KhoiLy_Electro-Hydraulic_Rolling_Soft_Wheel"
  - title: "High-Bandwidth Nonlinear Control for Soft Actuators with Recursive Network Models"
    authors: Sarah A. Manzano, Patricia Xu, Khoi Ly, Robert Shepherd, Nikolaus Correll
    year: 2021
