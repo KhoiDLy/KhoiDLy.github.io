@@ -8,9 +8,9 @@ alt: Electro-hydraulic rolling soft robot — Design, Hybrid Dynamic Modeling, a
 description: Electro-hydraulic rolling soft robot
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Rentschler, Nikolaus Correll
-Publication: IEEE Transactions on Robotics, 2022
-# paper_pdf: "2014_Roncone_ICRA_kinematic_calibration"
-# paper_title: "Electro-hydraulic rolling soft robot: Electromechanical Design, hybrid dynamic modeling, and model predictive control"
+submission: IEEE Transactions on Robotics, 2022
+paper_pdf: "2022_KhoiLy_Electro-Hydraulic_Rolling_Soft_Wheel"
+paper_title: "Electro-hydraulic rolling soft robot — Design, Hybrid Dynamic Modeling, and Model Predictive Control"
 ---
 ## Abstract
 
