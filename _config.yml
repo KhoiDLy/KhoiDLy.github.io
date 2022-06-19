@@ -1,13 +1,13 @@
 # Site settings
 title: KhoiDLy
-email: Khoi.Ly@colorado.edu
+email: kdl54@cornell.edu
 url: https://github.com/KhoiDLy/KhoiDLy.github.io
 phone: +1 (214) 718-0612
 #google-analytics-id: UA-80094809-1
 description: "Welcome to my personal website."
 owner: Khoi Dang Ly
-owner-title: Ph.D. Candidate
-owner-job: Robotics Engineer
+owner-title: Doctor of Philosophy
+owner-job: Soft Robotics Engineer
 
 # These should be put at the root of your website
 #resume-link: KhoiLy_resume.pdf
