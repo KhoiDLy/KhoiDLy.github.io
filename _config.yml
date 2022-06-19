@@ -6,12 +6,12 @@ phone: +1 (214) 718-0612
 #google-analytics-id: UA-80094809-1
 description: "Welcome to my personal website."
 owner: Khoi Dang Ly
-owner-title: Doctor of Philosophy
+owner-title: Ph.D
 owner-job: Soft Robotics Engineer
 
 # These should be put at the root of your website
-#resume-link: KhoiLy_resume.pdf
-# cv-link: KhoiLy_cv.pdf
+resume-link: KhoiLy_resume.pdf
+cv-link: KhoiLy_cv.pdf
 cv-image: /img/cv.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
