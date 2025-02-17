@@ -76,6 +76,11 @@ defaults:
       category: "research"
   -
     scope:
+      path: "_posts/research/High performance embodied energy system"
+    values:
+      subcategory: "High performance embodied energy system"
+  -
+    scope:
       path: "_posts/research/Integrated system and controller design"
     values:
       subcategory: "Integrated system and controller design"
