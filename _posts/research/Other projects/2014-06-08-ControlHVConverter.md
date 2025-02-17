@@ -10,7 +10,6 @@ img-thumb: HV_DCDC_Converter_thumb.jpg
 # authors: Vani Sundaram, Khoi Ly, Brian K. Johnson, Mantas Naris, Max Anderson, J. Sean Humbert, Nikolaus Correll, Mark Rentschler
 # submission: Soft Robotics 2020
 # paper_pdf: "2020_KhoiLy_CapacitiveSelfSensing"
-# paper_title: "Miniaturized circuitry for capacitive self-sensing and closed-loop control of soft electrostatic transducers"
 ---
 
 ## Abstract
