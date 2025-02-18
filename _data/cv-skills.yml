@@ -4,8 +4,8 @@
       knowledge: 90
     - name: Classical and State Space Modeling
       knowledge: 95
-    - name: Statistical Estimation
-      knowledge: 80
+    # - name: Statistical Estimation
+    #   knowledge: 80
     - name: System Identification
       knowledge: 90
     - name: Model Predictive Control
@@ -14,8 +14,8 @@
       knowledge: 85
     - name: digital signal processing
       knowledge: 85
-    - name: Neural Network
-      knowledge: 55
+    # - name: Neural Network
+    #   knowledge: 55
     - name: Solid Mechanics
       knowledge: 75
  - name: Programming Languages
@@ -24,20 +24,20 @@
       knowledge: 85
     - name: C++
       knowledge: 75
-    - name: RTOS
-      knowledge: 55
+    # - name: RTOS
+    #   knowledge: 55
     - name: Python
-      knowledge: 65
+      knowledge: 60
     - name: LATEX
-      knowledge: 75
+      knowledge: 50
  - name: Software Proficiency
    items:
     - name: SolidWork
-      knowledge: 85
+      knowledge: 90
     - name: Altium Designer
-      knowledge: 85
+      knowledge: 90
     - name: Matlab
-      knowledge: 95
+      knowledge: 90
     - name: Labview
       knowledge: 55
     - name: Adobe Premiere Pro
