@@ -1,5 +1,5 @@
  - title: "An untethered tactile display of evertive elastomeric actuators powered by explosions"
-   authors: Ronald H. Heisser1, Khoi D. Ly, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
+   authors: Ronald H. Heisser, Khoi D. Ly, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
    year: 2025
    venue: Science Robotics
    where:
@@ -8,6 +8,12 @@
    authors: Brian. K. Johnson, Mantas Naris, Vani Sundaram, Angie Volchko, Khoi Ly, Shane K. Mitchell, Eric Acome, Nicholas Kellaris, Christoph Keplinger, Nikolaus Correll, James S. Humbert, and Mark E. Rentschler
    year: 2023
    venue: Nature Communications
+   where:
+   pdf: "2023_Johnson_Stissue"
+ - title: "Mechanical Properties of Highly Deformable Elastomeric Gyroids for Multifunctional Capacitors"
+   authors: Emilie R Baker, Khoi Ly, Nikola Bosnjak, Maura R O’Neill, Rachel Miller, Sandra Li, Robert F Shepherd, Meredith N Silberstein
+   year: 2023
+   venue: Advanced Engineering Materials
    where:
    pdf: "2023_Johnson_Stissue"
  - title: "Electro-Hydraulic Rolling Soft Wheel: Design, Hybrid Dynamic Modeling, and Model Predictive Control"
