@@ -8,9 +8,9 @@ alt: Magnetic sensing, control, and tilting platform
 description: 6-DOF tilting platform
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 authors: Vani Sundaram, Khoi Ly, Brian K. Johnson, Mantas Naris, Maxwell P. Anderson, J. Sean Humbert, Nikolaus Correll Mark Rentschler.
-submission: IEEE Transactions on Robotics (Submitted in August, 2021)
-# paper_pdf: "2014_Roncone_ICRA_kinematic_calibration"
-# paper_title: "Electro-hydraulic rolling soft robot: Electromechanical Design, hybrid dynamic modeling, and model predictive control"
+submission: IEEE Transactions on Robotics, 2022
+paper_pdf: "2022_Sundaram_EmbeddedMagneticSensing"
+paper_title: "Embedded magnetic sensing for feedback control of soft HASEL actuators"
 ---
 ## Abstract
 

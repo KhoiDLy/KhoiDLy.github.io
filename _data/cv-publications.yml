@@ -16,6 +16,12 @@
    venue: IEEE Transaction on Robotics (IEEE TR-O)
    where:
    pdf: "2022_KhoiLy_Electro-Hydraulic_Rolling_Soft_Wheel"
+ - title: "Embedded Magnetic Sensing for Feedback Control of Soft HASEL Actuators"
+   authors: Vani Sundaram, Khoi Ly, Brian K. Johnson, Mantas Naris, Maxwell P. Anderson, J. Sean Humbert, Nikolaus Correll Mark Rentschler.
+   year: 2022
+   venue: IEEE Transaction on Robotics (IEEE TR-O)
+   where:
+   pdf: "2022_Sundaram_EmbeddedMagneticSensing"
  - title: "High-Bandwidth Nonlinear Control for Soft Actuators with Recursive Network Models"
    authors: Sarah A. Manzano, Patricia Xu, Khoi Ly, Robert Shepherd, Nikolaus Correll
    year: 2021
