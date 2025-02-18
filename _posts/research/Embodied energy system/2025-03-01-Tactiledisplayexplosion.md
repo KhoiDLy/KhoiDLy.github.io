@@ -7,7 +7,7 @@ img-thumb: Tactiledisplayexplosion.jpg
 alt: Tactiledisplayexplosion
 description: An untethered tactile display of evertive elastomeric actuators powered by explosions
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
-authors: Ronald H. Heisser, Khoi D. Ly, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
+authors: Ronald H. Heisser*, Khoi D. Ly*, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
 submission: Science Robotics, 2025
 paper_pdf: "2025_KhoiLy_Tactiledisplayexplosion"
 paper_title: "An untethered tactile display of evertive elastomeric actuators powered by explosions"
