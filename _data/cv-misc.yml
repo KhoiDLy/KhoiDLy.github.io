@@ -21,15 +21,16 @@
     - "Fall 2020 - <b>MCEN 2063</b> Solid Mechanics"
  - title: "Research Mentoring"
    elems:
-    - year: 2018
-      where: Dade McMorris (B.SC.)
-      description: "Title: <i> Self-sensing of High Voltage Electrostatic Actuators </i>."
-    - year: 2019
-      where: Jatin Mayekar (M.S.)
-      description: "Title: <i>Design and Modeling of Electro-hydraulic Rolling Soft Robot</i>."
-    - year: 2020
-      where: Kyle Martinaitis (B.SC.)
-      description: "Title: <i>Characterization and Model Validation for the Electro-hydraulic Rolling Soft Robot</i>."
+    
     - year: 2023
       where: Grace Shirota (B.SC.)
       description: "Title: <i>Laser ablation for tomato plant transformation</i>."
+    - year: 2020
+      where: Kyle Martinaitis (B.SC.)
+      description: "Title: <i>Characterization and Model Validation for the Electro-hydraulic Rolling Soft Robot</i>."
+    - year: 2019
+      where: Jatin Mayekar (M.S.)
+      description: "Title: <i>Design and Modeling of Electro-hydraulic Rolling Soft Robot</i>."
+    - year: 2018
+      where: Dade McMorris (B.SC.)
+      description: "Title: <i> Self-sensing of High Voltage Electrostatic Actuators </i>."
