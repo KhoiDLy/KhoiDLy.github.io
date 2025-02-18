@@ -4,6 +4,12 @@
    venue: Science Robotics
    where:
    pdf: "2025_KhoiLy_Tactiledisplayexplosion"
+ - title: "A multifunctional soft robotic shape display with high-speed actuation, sensing, and control"
+   authors: Brian. K. Johnson, Mantas Naris, Vani Sundaram, Angie Volchko, Khoi Ly, Shane K. Mitchell, Eric Acome, Nicholas Kellaris, Christoph Keplinger, Nikolaus Correll, James S. Humbert, and Mark E. Rentschler
+   year: 2023
+   venue: Nature Communications
+   where:
+   pdf: "2023_Johnson_Stissue"
  - title: "Electro-Hydraulic Rolling Soft Wheel: Design, Hybrid Dynamic Modeling, and Model Predictive Control"
    authors: Khoi Ly, Jatin Mayekar, Sarah A. Manzano, Christoph Keplinger, Mark Rentschler, Nikolaus Correll
    year: 2022

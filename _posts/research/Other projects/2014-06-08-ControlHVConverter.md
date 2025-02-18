@@ -9,7 +9,6 @@ img-thumb: HV_DCDC_Converter_thumb.jpg
 # tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
 # authors: Vani Sundaram, Khoi Ly, Brian K. Johnson, Mantas Naris, Max Anderson, J. Sean Humbert, Nikolaus Correll, Mark Rentschler
 # submission: Soft Robotics 2020
-# paper_pdf: "2020_KhoiLy_CapacitiveSelfSensing"
 ---
 
 ## Abstract
