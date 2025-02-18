@@ -3,7 +3,7 @@
     - name: Dynamics and Kinematics Modeling
       knowledge: 90
     - name: Classical and State Space Modeling
-      knowledge: 95
+      knowledge: 85
     # - name: Statistical Estimation
     #   knowledge: 80
     - name: System Identification
