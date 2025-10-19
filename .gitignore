@@ -2,3 +2,7 @@ _site
 _drafts
 *.sublime*
 img/idp/*
+
+# BMAD Core and Cursor IDE folders
+.bmad-core/
+.cursor/
