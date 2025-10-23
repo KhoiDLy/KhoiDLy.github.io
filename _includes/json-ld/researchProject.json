@@ -1,0 +1,51 @@
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ResearchProject",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "url": "{{ page.url | prepend: site.url }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.owner }}",
+        "honorificSuffix": "{{ site.owner-title }}",
+        "jobTitle": "{{ site.owner-job }}"
+      },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "keywords": "{{ page.tags | join: ', ' }}",
+      "about": [
+        "Soft Robotics",
+        "Mechatronics", 
+        "Cyber-physical Systems",
+        "Dynamic Modeling",
+        "Control Theory"
+      ],
+      "funder": {
+        "@type": "Organization",
+        "name": "Cornell University"
+      },
+      "sponsor": {
+        "@type": "Organization", 
+        "name": "Cornell University"
+      }{% if page.img %},
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/img/portfolio/{{ page.img }}",
+        "contentUrl": "{{ site.url }}/img/portfolio/{{ page.img }}"
+      }{% endif %}{% if page.paper_pdf %},
+      "citation": {
+        "@type": "ScholarlyArticle",
+        "name": "{{ page.paper_title }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ page.authors }}"
+        },
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ page.submission }}"
+        }
+      }{% endif %}
+    }
+    </script>

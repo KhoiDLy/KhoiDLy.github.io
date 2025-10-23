@@ -1,0 +1,31 @@
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CreativeWork",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "url": "{{ page.url | prepend: site.url }}",
+      "creator": {
+        "@type": "Person",
+        "name": "{{ site.owner }}",
+        "honorificSuffix": "{{ site.owner-title }}",
+        "jobTitle": "{{ site.owner-job }}"
+      },
+      "dateCreated": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "keywords": "{{ page.tags | join: ', ' }}",
+      "genre": "Design",
+      "about": [
+        "Design",
+        "User Interface",
+        "Visual Design",
+        "Open Source"
+      ]{% if page.img %},
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/img/portfolio/{{ page.img }}",
+        "contentUrl": "{{ site.url }}/img/portfolio/{{ page.img }}"
+      }{% endif %}{% if page.project_date %},
+      "datePublished": "{{ page.project_date | date_to_xmlschema }}"{% endif %}
+    }
+    </script>

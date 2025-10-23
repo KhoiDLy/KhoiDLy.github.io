@@ -11,9 +11,15 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description"        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}soft robotics, mechatronics, cyber-physical systems, dynamic modeling, control theory, Cornell University, research{% endif %}">
+    <meta name="author" content="{{ site.owner }}">
+    <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="1fM5KCFImdJuWeo8L_Qo7_-tuItbZ5hoIlGg8g14WkY" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:type" content="{% if page.type == 'article' %}article{% else %}website{% endif %}">
+    <meta property="og:site_name" content="{{ site.owner }} - {{ site.owner-title }}">
+    <meta property="og:locale" content="en_US">
 
     {% for network in site.social %}
     {% if network.title == "google-plus" %}
@@ -23,19 +29,48 @@
 
     {% if page.type == "article" %}
     {% if page.img %}
-    <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
-    <!-- <meta property="og:image" content="{{ /img/portfolio/{{ page.img }} | prepend: site.baseurl }}" /> -->
+    <meta name="thumbnail" content="{{ site.url }}/img/portfolio/{{ page.img }}" />
+    <meta property="og:image" content="{{ site.url }}/img/portfolio/{{ page.img }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:image" content="{{ site.url }}/img/portfolio/{{ page.img }}" />
     {% else %}
-    <meta name="thumbnail"    content="{{ site.logo }}" />
-    <!-- <meta property="og:image" content="{{ site.logo }}" /> -->
+    <meta name="thumbnail" content="{{ site.url }}{{ site.logo }}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
     {% endif %}
     {% elsif page.type == "cv" %}
-    <meta name="thumbnail"    content="{{ site.cv-image }}" />
-    <!-- <meta property="og:image" content="{{ site.cv-image }}" /> -->
+    <meta name="thumbnail" content="{{ site.url }}{{ site.cv-image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.cv-image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.cv-image }}" />
     {% else %}
-    <meta name="thumbnail"    content="{{ site.logo }}" />
-    <!-- <meta property="og:image" content="{{ {{ site.logo }} | prepend: site.baseurl }}" /> -->
-    {% endif%}
+    <meta name="thumbnail" content="{{ site.url }}{{ site.logo }}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
+    {% endif %}
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.owner | downcase | replace: ' ', '' }}">
+    <meta name="twitter:creator" content="@{{ site.owner | downcase | replace: ' ', '' }}">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.owner }} - {{ site.owner-title}}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.owner }} - {{ site.owner-title}}">
+    {% endif %}
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Article-specific meta tags -->
+    {% if page.type == "article" %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="article:author" content="{{ site.owner }}">
+    {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+    {% endif %}
+    {% endif %}
 
     <!-- Custom CSS & Bootstrap Core CSS -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
@@ -81,6 +116,14 @@
 
     {% if page.type == "article" %}
     {% include json-ld/blogPosting.json %}
+    {% endif %}
+
+    {% if page.category == "research" %}
+    {% include json-ld/researchProject.json %}
+    {% endif %}
+
+    {% if page.category == "design" %}
+    {% include json-ld/designProject.json %}
     {% endif %}
 
     <script>
