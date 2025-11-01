@@ -25,6 +25,9 @@
 
                 {% if page.authors %}
                     <p><strong>Authors:</strong> <em>{{ page.authors }}</em></p>
+                    {% if page.authors contains '*' %}
+                        <p><small>*These authors contributed equally to the manuscript</small></p>
+                    {% endif %}
                 {% endif %}
 
                 {% if page.submission %}

@@ -7,7 +7,7 @@ img-thumb: Explosion_thumb.jpg
 alt: Explosion Tactile Display
 description: Explosion-powered eversible tactile displays
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
-authors: Ronald H. Heisser, Khoi D. Ly, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
+authors: Ronald H. Heisser*, Khoi D. Ly*, Ofek Peretz, Young S. Kim, Carlos A. Diaz-Ruiz, Rachel M. Miller, Cameron A. Aubin, Sadaf Sobhani, Nikolaos Bouklas, Robert F. Shepherd
 submission: Science Robotics, 2025
 paper_pdf: "2025_Heisser_Explosion"
 paper_title: "Explosion-powered eversible tactile displays"
@@ -23,8 +23,8 @@ High-resolution electronic tactile displays stand to transform haptics for remot
 
 The below paper is for the detailed description of the explosion-powered eversible tactile displays.
 
-**Links:**
-- [PDF](https://github.com/KhoiDLy/ScienceRobotics/blob/main/2025_Heisser_Explosion.pdf) | [BIB](https://github.com/KhoiDLy/ScienceRobotics/blob/main/explosion_tactile_displays.bib)
+**Links:**  
+[PDF](https://github.com/KhoiDLy/ScienceRobotics/blob/main/2025_Heisser_Explosion.pdf) &nbsp;|&nbsp; [BIB](https://github.com/KhoiDLy/ScienceRobotics/blob/main/explosion_tactile_displays.bib)
 {: class="no-print"}
 
 {% include pdf.html url="portfolio/2025_Heisser_Explosion.pdf" description="" %}
