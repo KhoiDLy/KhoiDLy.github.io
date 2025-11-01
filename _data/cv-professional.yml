@@ -1,13 +1,13 @@
  - name: Embedded Firmware Engineer
-   title: LLUME
+   title: <b>LLUME</b>
    start: 2025
    end: present
    location: LLUME
-   description: "Leading firmware architectural design and implementation for RTOS-based, high-performance embedded electronic systems."
+   description: "Short summary: Leading firmware architectural design and implementation for RTOS-based, high-performance embedded electronic systems."
  - name: Postdoctoral Research Associate
-   title: Cornell University
+   title: <b>Cornell University</b>
    start: 2022
    end: 2025
    location: Cornell University, Ithaca, NY USA
    location-link: https://www.cornell.edu/
-   description: "Conducting cutting-edge research at the intersection of embedded sensing, control systems, electrochemistry, chemical kinetics, and materials science."
+   description: "Short summary: Conducting cutting-edge research at the intersection of embedded sensing, control systems, electrochemistry, chemical kinetics, and materials science."
