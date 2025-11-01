@@ -20,6 +20,32 @@
                         </div>
                     {% endif %}
 
+                    {% comment %} Count items in this subtype {% endcomment %}
+                    {% assign item_count = 0 %}
+                    {% for post in site.posts %}
+                        {% if post.categories contains page.type %}
+                            {% if subtype == "dummy" or subtype == post.subcategory %}
+                                {% if page.type == "research" or page.type == "design" %}
+                                    {% assign item_count = item_count | plus: 1 %}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% comment %} Determine column class based on item count {% endcomment %}
+                    {% if item_count == 1 %}
+                        {% assign col_class = "col-md-8 offset-md-2" %}
+                    {% elsif item_count == 2 %}
+                        {% assign col_class = "col-md-6" %}
+                    {% elsif item_count == 3 %}
+                        {% assign col_class = "col-md-4" %}
+                    {% elsif item_count == 4 %}
+                        {% assign col_class = "col-md-6" %}
+                    {% else %}
+                        {% assign col_class = "col-md-6" %}
+                    {% endif %}
+
+                    {% comment %} Display items with appropriate column class {% endcomment %}
                     {% for post in site.posts %}
                         {% if post.categories contains page.type %}
                             {% if subtype == "dummy" or subtype == post.subcategory %}
@@ -27,7 +53,7 @@
                                 {% if post.double %}
                                 <div class="col-md-3 portfolio-item"></div>
                                 {% endif %}
-                                <div class="col-md-6 portfolio-item">
+                                <div class="{{ col_class }} portfolio-item">
                                     <a href="{{ post.url }}" class="portfolio-link">
                                         <div class="caption">
                                             <div class="caption-content">

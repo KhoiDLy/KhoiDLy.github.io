@@ -1,33 +1,13 @@
- - name: Assistant Professor
-   title: Computer Science Department, University of Colorado Boulder
-   start: Aug. 2018
+ - name: Postdoctoral Research Associate
+   title: Cornell University
+   start: 2022
+   end: 2025
+   location: Cornell University, Ithaca, NY USA
+   location-link: https://www.cornell.edu/
+   description: ""
+ - name: Embedded Firmware Engineer
+   title: LLUME
+   start: 2025
    end: present
-   location: University of Colorado, Boulder, CO USA
-   location-link: https://www.colorado.edu/cs/
-   description: "I started working at CU Boulder in Fall 2018. There, I lead the <b>H</b>uman <b>I</b>nteraction and <b>RO</b>botics Group <b>[</b><strong class=\"color-banner\">HIRO</strong><b>]</b>. The scope of my research is within the larger field of Human-Robot Collaboration [HRC] and advanced manufacturing, with potential impact in other fields. We work at the intersection of Robotics, Artificial Intelligence and Control to develop intuitive, human-centered technologies for the next generation of robot workers, assistants and collaborators. My work revolves around the idea that shared knowledge and transparent commitment to the task are central for collaborative behaviors."
- - name: Post-Doc @ Yale University
-   title: Social Robotics Lab, Computer Science Department, Yale University
-   start: Nov. 2015
-   end: Jul. 2018
-   location: Yale University, New Haven, CT USA
-   location-link: http://scazlab.yale.edu
-   description: "I incorporate natural language into classical task planning algorithms, with the goal of developing robots that are able to: i) provide effective support to the human when she needs it the most; ii) learn complex hierarchical representations from single instructions; iii) proactively ask questions and provide contextual information to query and share internal states and intents."
- - name: Post-Doc @ iCub Facility
-   start: Jan.
-   end: Oct. 2015
-   location: Italian Institute of Technology (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) rich body representations ii) distributed motor control via whole-body awareness. I also made contributions to the field of optimization-based approaches to inverse kinematics and robot control. I implemented a state of the art <i>gaze stabilization</i> framework---later integrated with an existing <i>gaze controller</i>. My work in the topic formally solved the problem of controlling a binocular head to foveate toward an arbitrary 3D point in space, and concurrently exploiting redundancy to stabilize gaze at the same time."
- - name: Ph.D. Fellow @ iCub Facility
-   title: Life and Humanoid Technologies
-   start: Nov. 2011
-   end: Dec. 2014
-   location: Italian Institute of Technology (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section below for details about my Ph.D. project. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
- - name: Research Fellow @ RBCS (Robotics, Brain and Cognitive Science)
-   start: Oct. 2010
-   end: Jul. 2011
-   location: Italian Institute of Technology (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: I have worked at the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
+   location: LLUME
+   description: ""
