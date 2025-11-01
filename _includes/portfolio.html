@@ -34,7 +34,7 @@
 
                     {% comment %} Determine column class based on item count {% endcomment %}
                     {% if item_count == 1 %}
-                        {% assign col_class = "col-md-8 offset-md-2" %}
+                        {% assign col_class = "col-12 col-md-8 col-lg-6 mx-auto" %}
                     {% elsif item_count == 2 %}
                         {% assign col_class = "col-md-6" %}
                     {% elsif item_count == 3 %}
