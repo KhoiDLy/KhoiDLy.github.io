@@ -15,8 +15,8 @@
                 {% for subtype in subtypes %}
                     {% if page.subtypes %}
                         <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 20px;" id="{{ subtype | replace: " ", "-" | downcase }}">  
-                            <h2>{{ subtype }}</h2>
-                            <hr class="separating-line {{ page.type }}">
+                            <h2 style="text-align: center;">{{ subtype }}</h2>
+                            <hr class="separating-line {{ page.type }}" style="margin: 15px auto 20px; max-width: 250px;">
                         </div>
                     {% endif %}
 
